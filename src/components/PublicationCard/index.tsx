@@ -7,14 +7,14 @@ export default function PublicationCard() {
     <Link href="/pub/liacs" className={styles.container}>
       <div className={styles.content}>
         <div>
-          <h1>LIACS... But who's buying?</h1>
+          <h1>LIACS... But who&apos;s buying?</h1>
           <p>A pragmatic view on building a company</p>
         </div>
 
         <Image
           className={styles.cardImage}
           src="/liacs_nankin.png"
-          alt="Next.js logo"
+          alt="Card logo"
           width={100}
           height={100}
         />
