@@ -1,15 +1,13 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import PublicationCard from "@/components/PublicationCard";
 
-export default function Home() {
+export default function Publication() {
   return (
     <div>
-      <Header />
-      <Navbar />
-      <PublicationCard />
+      <Header/>
+
     </div>
   );
 }

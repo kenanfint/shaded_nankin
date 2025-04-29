@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+  }
+  
+  .left,
+  .center,
+  .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .center {
+    justify-content: center;
+  }
+  
+  .right {
+    justify-content: flex-end;
+  }
+  
+  .logo {
+
+  }
+  
+  .title {
+    font-size: 20px;
+    margin: 0;
+  }
+  
